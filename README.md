@@ -2,7 +2,7 @@
 
 ## Datos del grupo
 
-- **Integrantes:** [escribir aquí los nombres de los integrantes]
+- **Integrantes:** Adrián Lázaro Sabido, Jorge Oliver Zarcero y Antonio Gabriel Navarro Puig
 - **Lenguaje asignado:** Java
 - **Reto asignado:** comprobar si una persona es mayor o menor de edad mediante una condición.
 
@@ -40,7 +40,7 @@ En Python utilizaríamos `print()`.
 
 Java delimita los bloques mediante llaves `{ }`. Además, normalmente termina cada instrucción con punto y coma `;`.
 
-Python no utiliza llaves para estos bloques: usa los dos puntos `:` y la indentación. En ambos lenguajes la indentación ayuda a leer el código, pero en Python también determina qué instrucciones pertenecen a cada bloque.
+Python no utiliza llaves para estos bloques: usa los dos puntos `:` y la indentación.
 
 ### 4. ¿Qué símbolos o palabras cambian respecto al ejemplo en Python?
 
@@ -76,7 +76,7 @@ public class reto {
 }
 ```
 
-La clase y el método `main` son necesarios para ejecutar este ejemplo, pero no forman parte de la estructura condicional `if-else` que estamos investigando. En un script sencillo de Python no es obligatorio crear una clase ni una función principal.
+En nuestro caso no tenemos el entorno de Java instalado, por lo que no lo hemos ejecutado.
 
 ## Código y resultado
 
@@ -94,12 +94,6 @@ Es necesario tener instalado el JDK de Java. Desde la carpeta del proyecto:
 javac reto.java
 java reto
 ```
-
-## Puesta en común
-
-- **Funcionamiento de la condición:** `if` comprueba si la edad es mayor o igual que 18. `else` se ejecuta cuando esa condición es falsa.
-- **Semejanza con Python:** los dos lenguajes utilizan `if` y `else` para decidir qué mensaje mostrar.
-- **Diferencia con Python:** Java requiere indicar el tipo de la variable y delimitar los bloques con llaves, mientras que Python utiliza la indentación.
 
 ### Pregunta final
 
